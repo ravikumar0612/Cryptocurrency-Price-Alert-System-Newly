@@ -13,7 +13,7 @@ app.logger.setLevel(logging.INFO)
 
 # Flask-Mail configuration
 app.config['MAIL_SERVER'] = 'smtp.your-email-provider.com'  # e.g., smtp.gmail.com
-app.config['MAIL_PORT'] = 465
+app.config['MAIL_PORT'] = 587
 app.config['MAIL_USERNAME'] = 'your-email@example.com'
 app.config['MAIL_PASSWORD'] = 'your-password'
 app.config['MAIL_USE_TLS'] = False
